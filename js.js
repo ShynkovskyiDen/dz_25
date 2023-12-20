@@ -1,4 +1,4 @@
-class person {
+class Person {
     constructor(name, sex) {
         this.name = name;
         this.sex = sex;
@@ -28,9 +28,9 @@ class House {
     }
 }
 
-const person1 = new person('Denis', 'male');
-const person2 = new person('Aleksey', 'male');
-const person3 = new person('Darina', 'female');
+const person1 = new Person('Denis', 'male');
+const person2 = new Person('Aleksey', 'male');
+const person3 = new Person('Darina', 'female');
 
 const apartment1 = new Apartment();
 const apartment2 = new Apartment();
